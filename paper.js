@@ -23,8 +23,8 @@ class Paper{
         translate(ppos.x,ppos.y);
         ellipseMode(RADIUS);
         fill("#AB82FF");
-        ellipse(100,5,this.r,this.r);
-        pop ();
+        ellipse(50,5,this.r,this.r);
+        pop();
      
     }
 }

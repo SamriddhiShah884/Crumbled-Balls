@@ -21,7 +21,7 @@ function setup() {
 	world = engine.world;
 	
 
-paper=new Paper(100,500);
+paper=new Paper(10,500);
 bin1= new Bin(950,547,270,20);
 bin2= new Bin(950,400,20,147);
 bin3= new Bin(1200,400,20,147);
@@ -59,9 +59,10 @@ ground.display();
 function keyPressed(){
 	if(keyCode===UP_ARROW){
 console.log("up key pressed");
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:125,y:-130});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:155,y:-130});
 	}
 }
+
 
 
 
