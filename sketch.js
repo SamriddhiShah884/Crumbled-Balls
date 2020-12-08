@@ -47,6 +47,9 @@ bin1.display();
 bin2.display();
 bin3.display();
 ground.display();
+
+
+
   
   drawSprites();
  
@@ -56,7 +59,7 @@ ground.display();
 function keyPressed(){
 	if(keyCode===UP_ARROW){
 console.log("up key pressed");
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:85,y:85});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:125,y:-130});
 	}
 }
 
